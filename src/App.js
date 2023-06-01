@@ -88,7 +88,14 @@ function App() {
           );
         })}
       </div>
-      <div id="display">{activeKey}</div>
+
+      <div id="display">
+        <div>
+          {" "}
+          <h1>DDAI Simple Drum -> </h1>
+        </div>
+        <h4>{activeKey}</h4>
+      </div>
     </div>
   );
 }
