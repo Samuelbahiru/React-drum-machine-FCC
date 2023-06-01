@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { useEffect, useState } from "react";
 import "./App.css";
 
@@ -92,7 +91,7 @@ function App() {
       <div id="display">
         <div>
           {" "}
-          <h1>DDAI Simple Drum -> </h1>
+          <h1>DDAI Simple Drum - </h1>
         </div>
         <h4>{activeKey}</h4>
       </div>
