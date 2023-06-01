@@ -16,7 +16,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgb(98, 159, 159);
+}
+
+body {
+  background-color: antiquewhite;
 }
 
 #display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  background-color: salmon;
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+}
+#display h4 {
+  color: white;
+  font-size: 70px;
+  margin: auto;
 }
